@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sonidos de Animales</title>
+</head>
+<body>
+    <h1>Sonidos de Animales</h1>
+    <ul>
+        {% for animal, sonido in sonidos.items() %}
+            <li>Animal: {{ animal }}</li>
+        {% endfor %}
+    </ul>
+
+    <p>
+        <ul>
+            <li>desde <strong>/api/sonidos</strong> obtendras el sonido de todos los Animales</li>
+            <li>desde <strong>/api/sonidos/Nombre-del-Animal</strong> obtendras el sonido de cada animal poniendo el nombre de cada animal del listado (Cambiar Nombre-del-Animal por Ej:Boa)</li>
+        
+
+        </ul>
+
+    </p>
+</body>
+</html>
