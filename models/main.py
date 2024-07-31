@@ -13,9 +13,13 @@ def obtener_sonidos():
 def obtener_sonido_por_animal(nombre_animal):
     animales = {
         'Perro': Perro(),
+        'perro': Perro(),
         'Gato': Gato(),
+        'gato': Gato(),
         'Huron': Huron(),
-        'Boa': Boa_Constrictor()
+        'huron': Huron(),
+        'Boa': Boa_Constrictor(),
+        'boa': Boa_Constrictor()
     }
     animal = animales.get(nombre_animal)
     if animal:
