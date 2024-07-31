@@ -19,5 +19,8 @@ def get_sonido(nombre_animal):
 def index():
     return render_template('index.html', sonidos=obtener_sonidos())
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+#    app.run(debug=True)
+    
+if __name__ != "__main__":
+    application = app
